@@ -23,8 +23,6 @@ public class ActiveWindow {
 
         driver.switchTo().window(originalHandle);
 
-        driver.switchTo().de
-
         driver.quit();
     }
 }
