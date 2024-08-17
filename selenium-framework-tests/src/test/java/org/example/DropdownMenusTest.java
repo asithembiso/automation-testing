@@ -1,12 +1,11 @@
 package org.example;
 
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class DropdownMenus {
+public class DropdownMenusTest {
     public static void main(String[] args) {
         System.setProperty("webdriver.chrome.driver", "/workspace/drivers/chromedriver/chromedriver.exe");
         WebDriver driver = new ChromeDriver();

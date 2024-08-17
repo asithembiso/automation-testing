@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.By;
 
-public class OpenAlert {
+public class OpenAlertTest {
     public static void main(String[] args) {
         System.setProperty("webdriver.chrome.driver", "/workspace/drivers/chromedriver/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
